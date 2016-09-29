@@ -1,7 +1,5 @@
 'use strict';
 
-/* This file contains pending functions which should be moved to the above @rw3iss/js-utils library */
-
 var addEvent = function(object, type, callback) {
     if (object == null || typeof(object) == 'undefined') return;
     if (object.addEventListener) {
